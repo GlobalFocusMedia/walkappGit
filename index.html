@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>walkapp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/codiqa.ext.min.css" rel="stylesheet">
+  <link href="css/jqm-neue.css" rel="stylesheet">
+  <link href="css/walkapp.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/codiqa.ext.min.js"></script>
+  <script src="js/walkapp.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Home" data-theme="d" id="home"
+  class="homeDiv">
+      <div data-role="content" style="padding: 0px">
+          <a href="#map" data-controltype="image">
+              <div style=" text-align:center">
+                  <img style="width: 100%; height: 100%" src="img/clear.png">
+              </div>
+          </a>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Map" data-theme="d" id="map">
+      <div data-role="content" style="padding: 0px">
+          <a href="#notes" data-controltype="image">
+              <div style=" text-align:center">
+                  <img style="width: 100%; height: 100%" src="img/clear.png">
+              </div>
+          </a>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Notes" data-theme="d" id="notes">
+      <div data-role="content" style="padding: 0px">
+          <a href="#history" data-controltype="image">
+              <div style=" text-align:center">
+                  <img style="width: 100%; height: 100%" src="img/clear.png">
+              </div>
+          </a>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="History" data-theme="d" id="history">
+      <div data-role="content" style="padding: 0px">
+          <a href="#home" data-controltype="image">
+              <div style=" text-align:center">
+                  <img style="width: 100%; height: 100%" src="img/clear.png">
+              </div>
+          </a>
+      </div>
+  </div>
+</body>
+</html>
